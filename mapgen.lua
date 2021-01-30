@@ -27,17 +27,18 @@ minetest.register_ore({
         "default:dirt_with_dry_grass",
         "default:dirt_with_rainforest_litter"
     },
-    y_min = -4, 
+    y_min = -4,
     y_max = 1,
     column_height_min = 6,
     column_height_max = 6,
     column_midpoint_factor = 0,
     biomes = {"deciduous_forest_shore", "savanna_shore", "rainforest_swamp"},
+    noise_threshold = 0.4,
     noise_params = {
         offset = 0,
         scale = 1,
         spread = {x = 100, y = 100, z = 100},
-        seed = 29,
+        seed = 129,
         octaves = 1,
         persist = 0.6
     }
@@ -52,6 +53,7 @@ minetest.register_ore({
     column_height_min = 1,
     column_height_max = 5,
     biomes = {"deciduous_forest_shore", "savanna_shore", "rainforest_swamp"},
+    noise_threshold = 0.5,
     noise_params = {
         offset = 0,
         scale = 1,
@@ -70,11 +72,12 @@ minetest.register_ore({
     y_max = 31000,
     column_height_min = 6,
     column_height_max = 10,
+    noise_threshold = 0.5,
     noise_params = {
         offset = 0,
         scale = 1,
         spread = {x = 128, y = 128, z = 128},
-        seed = 33,
+        seed = 137,
         octaves = 1,
         persist = 0.55
     }
@@ -88,13 +91,14 @@ minetest.register_ore({
     y_max = 31000,
     column_height_min = 6,
     column_height_max = 10,
+    noise_threshold = 0.2,
     noise_params = {
         offset = 0,
         scale = 1,
-        spread = {x = 100, y = 100, z = 100},
-        seed = 53,
+        spread = {x = 120, y = 120, z = 120},
+        seed = 153,
         octaves = 1,
-        persist = 0.6
+        persist = 0.5
     }
 })
 
@@ -106,11 +110,12 @@ minetest.register_ore({
     y_max = 10,
     column_height_min = 6,
     column_height_max = 10,
+    noise_threshold = 0.35,
     noise_params = {
-        offset = 0,
+        offset = -0.12,
         scale = 1,
         spread = {x = 100, y = 100, z = 100},
-        seed = 71,
+        seed = 4171,
         octaves = 1,
         persist = 0.6
     }
@@ -124,11 +129,12 @@ minetest.register_ore({
     y_max = 0,
     column_height_min = 6,
     column_height_max = 10,
+    noise_threshold = 0.35,
     noise_params = {
-        offset = 0,
+        offset = -0.12,
         scale = 1,
         spread = {x = 100, y = 100, z = 100},
-        seed = 27,
+        seed = 3127,
         octaves = 1,
         persist = 0.6
     }
@@ -142,11 +148,12 @@ minetest.register_ore({
     y_max = -10,
     column_height_min = 6,
     column_height_max = 10,
+    noise_threshold = 0.4,
     noise_params = {
-        offset = 0,
+        offset = -0.12,
         scale = 1,
         spread = {x = 100, y = 100, z = 100},
-        seed = 71,
+        seed = 8291,
         octaves = 1,
         persist = 0.6
     }
@@ -160,11 +167,12 @@ minetest.register_ore({
     y_max = -50,
     column_height_min = 6,
     column_height_max = 10,
+    noise_threshold = 0.35,
     noise_params = {
         offset = 0,
         scale = 1,
         spread = {x = 100, y = 100, z = 100},
-        seed = 103,
+        seed = 2203,
         octaves = 1,
         persist = 0.6
     }
@@ -179,11 +187,12 @@ minetest.register_ore({
     y_max = -75,
     column_height_min = 6,
     column_height_max = 10,
+    noise_threshold = 0.35,
     noise_params = {
         offset = 0,
         scale = 1,
         spread = {x = 100, y = 100, z = 100},
-        seed = 119,
+        seed = 1219,
         octaves = 1,
         persist = 0.6
     }
@@ -198,11 +207,12 @@ minetest.register_ore({
     y_max = -350,
     column_height_min = 6,
     column_height_max = 10,
+    noise_threshold = 0.4,
     noise_params = {
         offset = 0,
         scale = 1,
         spread = {x = 100, y = 100, z = 100},
-        seed = 161,
+        seed = 9261,
         octaves = 1,
         persist = 0.6
     }
@@ -216,11 +226,12 @@ minetest.register_ore({
     y_max = -250,
     column_height_min = 6,
     column_height_max = 10,
+    noise_threshold = 0.35,
     noise_params = {
         offset = 0,
         scale = 1,
         spread = {x = 100, y = 100, z = 100},
-        seed = 134,
+        seed = 234,
         octaves = 1,
         persist = 0.6
     }
